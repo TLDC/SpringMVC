@@ -62,39 +62,39 @@
     </dependencies>
 
 
-    <repositories>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>central</id>
-            <name>repo</name>
-            <url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>central</id>
-            <name>repo</name>
-            <url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target</url>
-        </pluginRepository>
-    </pluginRepositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<snapshots>-->
+                <!--<enabled>false</enabled>-->
+            <!--</snapshots>-->
+            <!--<id>central</id>-->
+            <!--<name>repo</name>-->
+            <!--<url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+    <!--<pluginRepositories>-->
+        <!--<pluginRepository>-->
+            <!--<snapshots>-->
+                <!--<enabled>false</enabled>-->
+            <!--</snapshots>-->
+            <!--<id>central</id>-->
+            <!--<name>repo</name>-->
+            <!--<url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target</url>-->
+        <!--</pluginRepository>-->
+    <!--</pluginRepositories>-->
 
-    <distributionManagement>
-        <repository>
-            <id>TGTCDF-SVRREPD1</id>
-            <name>TGTCDF-SVRREPD1-releases</name>
-            <url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target-local</url>
-        </repository>
-        <snapshotRepository>
-            <id>TGTCDF-SVRREPD1</id>
-            <name>TGTCDF-SVRREPD1-snapshots</name>
-            <url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target-local</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <!--<distributionManagement>-->
+        <!--<repository>-->
+            <!--<id>TGTCDF-SVRREPD1</id>-->
+            <!--<name>TGTCDF-SVRREPD1-releases</name>-->
+            <!--<url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target-local</url>-->
+        <!--</repository>-->
+        <!--<snapshotRepository>-->
+            <!--<id>TGTCDF-SVRREPD1</id>-->
+            <!--<name>TGTCDF-SVRREPD1-snapshots</name>-->
+            <!--<url>http://tgtcdf-svrrepd1.targetgroup.net:8082/artifactory/maven-target-local</url>-->
+        <!--</snapshotRepository>-->
+    <!--</distributionManagement>-->
 
 
 </project>
